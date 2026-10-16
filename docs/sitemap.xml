@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://antonella.menghi.dev/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/"/></url>
+  <url><loc>https://antonella.menghi.dev/about/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/about/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/chi-sono/"/></url>
+  <url><loc>https://antonella.menghi.dev/expertise/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/expertise/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/competenze/"/></url>
+  <url><loc>https://antonella.menghi.dev/work/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/work/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/progetti/"/></url>
+  <url><loc>https://antonella.menghi.dev/press/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/press/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/stampa/"/></url>
+  <url><loc>https://antonella.menghi.dev/contact/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/contact/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/contatti/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/chi-sono/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/about/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/chi-sono/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/competenze/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/expertise/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/competenze/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/progetti/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/work/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/progetti/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/stampa/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/press/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/stampa/"/></url>
+  <url><loc>https://antonella.menghi.dev/it/contatti/</loc><xhtml:link rel="alternate" hreflang="en" href="https://antonella.menghi.dev/contact/"/><xhtml:link rel="alternate" hreflang="it" href="https://antonella.menghi.dev/it/contatti/"/></url>
+</urlset>
