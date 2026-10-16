@@ -269,7 +269,6 @@ def page_about(L):
 <section class="section">
   <div class="wrap">
     <h2 class="h2-rule">{e(A['timeline_heading'])}</h2>
-    <p class="muted">{e(A['timeline_lead'])}</p>
     <ol class="timeline" reversed>{''.join(rows)}</ol>
   </div>
 </section>
