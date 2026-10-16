@@ -13,7 +13,7 @@ from content import DOMAIN, LANGS, LINKEDIN, PATHS, PRESS, TIMELINE
 
 SRC = Path(__file__).resolve().parent
 OUT = SRC.parent / "docs"
-ASSET_VERSION = "2"
+ASSET_VERSION = "3"
 from PIL import Image as _Img
 HERO_W, HERO_H = _Img.open(SRC / "assets/img/hero-1000.png").size
 

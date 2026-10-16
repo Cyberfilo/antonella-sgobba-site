@@ -83,11 +83,14 @@ strong { font-weight: 600; }
 .lang:hover { border-color: var(--gold); }
 
 @media (max-width: 860px) {
-  .head-row { flex-wrap: wrap; row-gap: 0.25rem; padding-top: 14px; padding-bottom: 12px; }
-  .brand-name { font-size: 1.2rem; }
-  .site-nav { order: 3; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .site-nav ul { gap: 1.25rem; padding-bottom: 4px; }
-  .site-nav a { white-space: nowrap; }
+  .head-row { flex-wrap: wrap; gap: 0.5rem 1rem; min-height: 0; padding-top: 12px; padding-bottom: 6px; }
+  .brand { gap: 10px; }
+  .brand-name { font-size: 1.15rem; }
+  .monogram { width: 38px; height: 38px; }
+  .lang { padding: 3px 12px; font-size: 1rem; }
+  .site-nav { order: 3; width: 100%; }
+  .site-nav ul { flex-wrap: wrap; gap: 0 1.1rem; }
+  .site-nav a { display: inline-block; padding: 10px 0; font-size: 0.95rem; }
 }
 
 /* ---------- hero (home) ---------- */
@@ -293,3 +296,43 @@ strong { font-weight: 600; }
 .foot-links a:hover { text-decoration: underline; }
 .foot-rights { grid-column: 1 / -1; font-size: 0.85rem; color: var(--muted-on-navy); margin-top: 1rem; }
 @media (max-width: 860px) { .foot-grid { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+/* ---------- phones ---------- */
+@media (max-width: 480px) {
+  :root { --gutter: 18px; }
+  .site-nav ul { gap: 0 0.75rem; justify-content: space-between; }
+  .hero-text { padding: 2.25rem 0 1.25rem; }
+  .hero-name { font-size: 1.15rem; margin-bottom: 0.75rem; }
+  .hero-h1 { font-size: 2.35rem; }
+  .hero-h1-2 { font-size: 0.56em; }
+  .hero-role { margin-top: 1.25rem; font-size: 1rem; }
+  .hero-actions { margin-top: 1.5rem; }
+  .btn { padding: 12px 18px; }
+  .ledger-num { font-size: 2.1rem; }
+  .ledger-item { padding: 1.25rem 0; }
+  .section { padding: 2.75rem 0; }
+  .section + .section-alt, .section-alt + .section, .section + .section-navy, .section-navy + .section { padding-top: 2.75rem; }
+  .section .wrap + .wrap { margin-top: 2.5rem; }
+  h2 { font-size: 1.85rem; }
+  .prose-lg { font-size: 1.1rem; }
+  .about-bio { font-size: 1.05rem; }
+  .band { padding: 2.25rem 0 2.5rem; }
+  .band h1 { font-size: 2.5rem; }
+  .band .lead { font-size: 1.1rem; }
+  .case-title { font-size: 1.45rem; }
+  .case-list { margin-top: 1.5rem; }
+  .case { padding: 2rem 0; }
+  .case-head h2 { font-size: 1.75rem; }
+  .case-result { font-size: 1.3rem; }
+  .tl-row { padding: 1.25rem 0; }
+  .tl-org { font-size: 1.3rem; }
+  .tl-place { display: block; margin: 0.15rem 0 0; vertical-align: baseline; }
+  .phase { gap: 0.5rem 1.25rem; padding: 1.5rem 0; }
+  .phase::before { font-size: 2rem; }
+  .phase-head h3 { font-size: 1.35rem; }
+  .press-row { padding: 1.25rem 0; }
+  .press-title { font-size: 1.35rem; }
+  .outlets { font-size: 1.15rem; gap: 0.4rem 1.25rem; }
+  .foot-links { gap: 1.25rem; flex-wrap: wrap; }
+  .site-foot { padding: 2.5rem 0 2rem; }
+}
